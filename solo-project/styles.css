@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  color: #1D3557;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(taj-mahal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100%; */
+  color: #fff;
+}
+
+.hero__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 48px;
+  background-color: #1D3557;
+  margin-block: 48px 16px;
+  padding: 8px 32px;
+  border-radius: 4px;
+}
+
+.hero__description {
+  background-color: #457B9D;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+/* Activities Section */
+.activities {
+  text-align: center;
+  padding-block: 48px;
+  background-color: #F1FAEE;
+}
+
+.activity__wrapper {
+  /* padding-inline: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-inline-size: 800px;
+  margin-inline: auto;
+  margin-block-start: 48px;
+  gap: 24px;
+}
+
+.activity__image {
+  width: 100px;
+  height: 100px;
+  margin-block-end: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #457B9D;
+}
+
+.activity__title {
+  font-size: 18px;
+  font-weight: 600px;
+  margin-block-end: 8px;
+}
+
+.activity__description {
+  font-size: 14px;
+}
+
+/* Guide section */
+.guide {
+  padding: 48px;
+}
+
+.guide__wrapper {
+  display: flex;
+  padding: 16px 24px;
+  gap: 24px;
+  background-color: #A8DADC;
+  border-radius: 10px;
+  border-bottom: 4px solid #1D3557;
+  max-inline-size: 400px;
+  margin-inline: auto;
+
+}
+
+.guide__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.guide__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.guide__description {
+  font-size: 14px;
+  margin-block: 16px 24px;
+}
+
+.guide__image {
+  width: 180px;
+  border-radius: 10px;
+}
