@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Doto, sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+  background: url(basketball-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 64px;
+  margin-inline: auto;
+  background-color: #000;
+  color: #fff;
+  border: 4px ridge #fff;
+  max-width: 600px;
+  margin-top: 64px;
+  padding: 32px;
+}
+
+.team-logo {
+  margin-bottom: 32px;
+}
+
+.team-score {
+  border: 4px dashed #fff;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  color: lightgreen;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.score-counter {
+  display: flex;
+  gap: 32px;
+
+}
+
+.score-counter__points {
+  border: 2px dashed #fff;
+  padding: 8px;
+  cursor: pointer;
+}
